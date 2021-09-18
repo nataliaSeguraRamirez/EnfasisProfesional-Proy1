@@ -1,0 +1,40 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+<h1>Natalia Segura Ramírez</h1>
+
+<div class="card mb-3" style="width: 18rem;">
+  <img src="/Images/SpiderMan.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">@sinopsis</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="input-group flex-nowrap mb-3">
+  <input type="text" class="form-control" placeholder="Pelicula" aria-label="Username">
+</div>
+<div class="input-group flex-nowrap mb-3">
+  <span class="input-group-text" id="addon-wrapping">#</span>
+  <input type="number" class="form-control" placeholder="Puntuación usuario" aria-label="Username" >
+</div>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text"></span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+<div>
+  <label>La pelicula es, @movie</label>
+  <label class = "form-lable">@function_convert_mayusc(movie)</label>
+  <br>
+  <label class = "form-lable">@function_convert_minusc(movie)</label>
+</div>
+@code{
+  public string movie = "Spiderman";
+  public string sinopsis = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas dolorem facilis enim ut quasi. Doloremque officia odit est aut praesentium ea, provident fugiat blanditiis at placeat molestias eius sit magni?";
+  @*Función flecha*@
+  public string function_convert_mayusc(string value) => value.ToUpper(); 
+  public string function_convert_minusc(string value) => value.ToLower(); 
+}
