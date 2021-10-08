@@ -1,0 +1,30 @@
+<div class="jumbotron">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var actor in Actors)
+            {
+                <div class="col-md-4">
+                    <div class=" card flex-md-row mb-4 box-shadow h-md-300">
+
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <div class="card">
+                                <img src="@actor.Photo" alt="" class="img-thumbnail">
+                                <div class="m-5">
+                                    <h5 class="card-title">@actor.Name</h5>
+                                    <p class="card-text">@actor.Biography</p>
+                                    <p class="card-text">@actor.BirthDate</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+
+@code {
+    [Parameter] public List<Actor> Actors{get; set;}
+}

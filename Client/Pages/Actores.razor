@@ -1,0 +1,46 @@
+@page "/actor"
+@using Proy1.Client.Pages.Components
+@inject IServiceMovie movie
+@inject IActorService actor
+<div class="jumbotron">
+    <ActorComponent Actors="Actors"/>
+</div>
+
+@code {
+    private List<Actor> Actors;
+        protected override void OnInitialized(){
+            Actors = actor.GetActors();
+        }
+}
+
+
+
+@* @page "/"
+
+<h1>Hello, world!</h1> *@
+
+@* <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Película" aria-label="Username">
+    </div> *@
+
+@* <form>
+    <div class="form-group">
+        <label for="pelicula">Película</label>
+        <input type="text" class="form-control" id="pelicula">
+    </div>
+</form>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="Images/spiderman.jfif" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@movie</h5>
+        <p class="card-text">@sinopsis</p>
+        <a href="#" class="btn btn-primary">Hecho por Sebastian Cordero</a>
+    </div>
+</div>
+
+@code{
+    public string movie = "Spiderman";
+    public string sinopsis = "Una película de locoos.";
+    public string function_convert_mayus(string value) => value.ToUpper();
+    public string function_convert_minus(string value) => value.ToLower(); 
+} *@

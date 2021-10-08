@@ -634,3 +634,11 @@ C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Proy1.Client.csproj.CopyComplete
 C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Proy1.Client.dll
 C:\EProfesional\Proy1\Client\obj\Debug\net5.0\ref\Proy1.Client.dll
 C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Proy1.Client.pdb
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Actores.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\ActorComponent.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Components\MovieComponent.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Movies.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Razor\Pages\Actores.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Razor\Pages\Components\ActorComponent.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Razor\Pages\Components\MovieComponent.razor.g.cs
+C:\EProfesional\Proy1\Client\obj\Debug\net5.0\Razor\Pages\Movies.razor.g.cs

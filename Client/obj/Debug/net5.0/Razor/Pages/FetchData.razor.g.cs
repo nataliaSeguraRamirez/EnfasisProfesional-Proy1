@@ -87,6 +87,13 @@ using Proy1.Shared.Entity;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "C:\EProfesional\Proy1\Client\_Imports.razor"
+using Proy1.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "C:\EProfesional\Proy1\Client\Pages\FetchData.razor"
 using Proy1.Shared;
 

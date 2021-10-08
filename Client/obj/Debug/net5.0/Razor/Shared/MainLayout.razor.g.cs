@@ -86,6 +86,13 @@ using Proy1.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\EProfesional\Proy1\Client\_Imports.razor"
+using Proy1.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

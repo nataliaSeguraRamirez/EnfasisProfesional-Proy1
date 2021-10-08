@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Proy1.Client.Services;
 
 namespace Proy1.Client
 {
@@ -20,6 +21,10 @@ namespace Proy1.Client
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
             await builder.Build().RunAsync();
+        }
+        private static void ConfigureS(IServiceCollection services){
+            services.AddSingleton<IServiceMovie, ServiceMovie>();
+            services.AddSingleton<IActorService, ActorService>();
         }
     }
 }

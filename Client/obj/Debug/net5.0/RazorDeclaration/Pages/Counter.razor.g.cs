@@ -89,7 +89,14 @@ using Proy1.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
+#nullable restore
+#line 12 "C:\EProfesional\Proy1\Client\_Imports.razor"
+using Proy1.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/movies")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -98,7 +105,7 @@ using Proy1.Shared.Entity;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\EProfesional\Proy1\Client\Pages\Counter.razor"
+#line 5 "C:\EProfesional\Proy1\Client\Pages\Counter.razor"
        
     private int currentCount = 0;
 

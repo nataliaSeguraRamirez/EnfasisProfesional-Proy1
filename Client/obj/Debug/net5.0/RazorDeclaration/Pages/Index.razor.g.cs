@@ -89,6 +89,13 @@ using Proy1.Shared.Entity;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\EProfesional\Proy1\Client\_Imports.razor"
+using Proy1.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
